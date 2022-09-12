@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/9144855dfd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newhorizon.css">
+    <link rel="stylesheet" href="newhorizon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<!-- ==========================================navigation================================== -->
+  <div class="row_space">
+    <nav class="navbar navbar-expand-lg navbar-light"style='background-color:white;'>
+      <div class="container">
+        <a class="navbar-brand pe-0" href="#"><img src="./img_horizon/logo.jpg" width="150" height="45" alt=""></a>
+        <button class="navbar-toggler navbar-dark btn btn-outline-light" style="background-color: #004A98;" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="#navbarOffcanvasLg">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="offcanvas  offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas-header">
+                <img src="./img_horizon/logo.jpg" class="offcanvas-title rounded" id="offcanvasNavbarLabel" alt="logo" width="90" height="50">
+                <button type="button" class="btn-close text-reset navbar-dark bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <ul class="navbar-nav d-flex mx-0 px-3 hover_head justify-content-center ">
+              <li class="nav-item">
+                <a class="nav-link active hover_n" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">PROJECT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">TEAM</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link hover dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  COURSES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">WEB | FRONTEND</a></li>
+                  <li><a class="dropdown-item" href="#">WEB | BACKEND</a></li>
+                  <li><a class="dropdown-item" href="#">DATA SCIENCE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link hover dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  FILES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">GRAPHICS</a></li>
+                  <li><a class="dropdown-item" href="#">ASSIGNMENT</a></li>
+                  <li><a class="dropdown-item" href="#">PRACTICALS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link hover" href="#">CONTACT</a>
+            </li>
+              <li class="nav-item p-1  ">
+                <a class="nav-link btn btn-outline-primary" href="login.html">Login</a>
+              </li>
+              <li class="nav-item p-1">
+                <a href="register.html" class="nav-link btn btn-primary text-white">Create Account</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- ===========================================carousel========================================= -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img_horizon/hero.jpg" class="d-block w-100" style="height:90vh"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:white; font-weight:500; font-size:30px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nostrum!</h5>
+          <p style="color:white; font-weight:500; font-size:20px;">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img_horizon/hero2.jpg" class="d-block w-100" style="height:90vh"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:red; font-weight:500; font-size:30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, maxime.</h5>
+          <p style="color:red; font-weight:500; font-size:20px;">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img_horizon/hero3.jpg" class="d-block w-100"  style="height:90vh" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:yellow; font-weight:500; font-size:30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, possimus.</h5>
+          <p style="color:yellow; font-weight:500; font-size:20px;">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- ======================================about us section======================================== -->
+  <div class="row_space">
+    <h1 style="text-align:center; padding:50px 0 20px">About Us</h1>
+    <div class="row">
+      <div class="col-12 col-md-4 mb-5">
+        <div class=" card bg-body text-center border shadow px-3">
+          <div class="card-body">
+            <i class="fa-solid fa-people-group" style="color:#004A98; font-size:50px"></i>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem harum sed quod libero maxime, illum cupiditate. Ipsa, alias!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-5">
+        <div class=" card bg-body text-center border shadow px-3">
+          <div class="card-body">
+            <i class="fa-solid fa-gears" style="color:#004A98; font-size:50px"></i>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem harum sed quod libero maxime, illum cupiditate. Ipsa, alias!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-5">
+        <div class=" card text-center bg-body border shadow px-3">
+          <div class="card-body">
+            <i class="fa-solid fa-eye" style="color:#004A98; font-size:50px"></i>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem harum sed quod libero maxime, illum cupiditate. Ipsa, alias!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==================================Features================================= -->
+
+    <section class="bg-light mt-5 pt-5">
+      <div class="row_space">
+        <div class="row justify-content-between">
+          <h1 class='text-center pb-5'>Did You Know?</h1>
+          <div class='col-12 col-md-5 align-items-center text-left ju'>
+            <img class="img-fluid" src="feature_img1.svg" alt="">
+          </div>
+
+          <div class="col-12 col-md-5">
+            <h2>Feature 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam amet omnis excepturi magni itaque minima in, id nostrum suscipit neque consequatur quod eius delectus temporibus esse obcaecati recusandae aut impedit sit voluptatem? Quia.</p>
+            <p><a href="#">Learn More <i class="fas fa-angle-right"></i></a></p>
+          </div>
+        </div>
+
+        <div class="row pt-5 mt-5 justify-content-between">
+          <div class="col-12 col-md-5 ">
+            <h2>Feature 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aperiam amet omnis excepturi magni itaque minima in, id nostrum suscipit neque consequatur quod eius delectus temporibus esse obcaecati recusandae aut impedit sit voluptatem? Quia.</p>
+            <p><a href="#">Learn More <i class="fas fa-angle-right"></i></a></p>
+          </div>
+
+          <div class='col-12 col-md-5 align-items-center'>
+            <img class="img-fluid" src="feature_img2.svg" width="50%" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- ========================================COURSES================================================== -->
+  <section class="courses mt-3 pt-5">
+    <div class="row_space">
+      <h2 class="text-center pb-3">Web Design Courses</h2>
+      <div class="row">
+        <div class=" col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/html.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/css3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/javascript.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/bootstrap.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row pt-5">
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/wordpress.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/python.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/react.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-5">
+          <div class="card h-100" style="width: 100%;">
+            <img src="./img_horizon/php.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================instructors================================ -->
+  <section class="bg-light mt-5 pt-3">
+    <div class="row_space">
+      <h2 class='text-center'>Meet Me</h2>
+      <div class="row text-center justify-content-center">
+        <div class="col-4">
+          <img src="./img_miami/richard.jpg" width='100' class="img-fluid rounded-circle" alt="">
+          <h3>Mr Richard</h3>
+          <p>Position</p>
+        </div>
+        <div class="col-4">
+          <img src="./img_miami/tosin.jpg" width='100'  class="img-fluid rounded-circle" alt="">
+          <h3>Mr Richard</h3>
+          <p>Position</p>
+        </div>
+        <div class="col-4">
+          <img src="./img_miami/tosin.jpg" width='100' class="img-fluid rounded-circle" alt="">
+          <h3>Mr Richard</h3>
+          <p>Position</p>
+        </div>
+      </div>
+
+      <div class="row pt-5 text-center justify-content-center">
+        <div class="col-4">
+          <img src="./img_miami/richard.jpg" width='100' class="img-fluid rounded-circle" alt="">
+          <h3>Mr Richard</h3>
+          <p>Position</p>
+        </div>
+        <div class="col-4">
+          <img src="./img_miami/tosin.jpg" width='100'  class="img-fluid rounded-circle" alt="">
+          <h3>Mr Richard</h3>
+          <p>Position</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- =======================================contact us==================================== -->
+
+<section class='mt-4'>
+  <div class="row_space">
+    <div class="row text-center justify-content-center">
+      <div class="col">
+        <h1>Contact Us</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, enim.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.899499504502!2d3.3410591137630568!3d7.137619494846028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4b88e0a8178f%3A0xe8b0167445661473!2sSecretariat%20Road%2C%20Kuto%20111102%2C%20Abeokuta!5e0!3m2!1sen!2sng!4v1659432486375!5m2!1sen!2sng" width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+
+      <div class="col-12 col-md-6">
+        <form >
+            <div class="row">
+                <div class="col">
+                    <input type="name" class="form-control" placeholder="Enter Name">
+                </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                  <input type="email" class="form-control" placeholder="Enter email">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                  <input type="email" class="form-control" placeholder="Subject">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                  <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================footer=========================================== -->
+<footer class="mt-5 pt-3 bg-light">
+  <div class="row_space">
+    <div class="row">
+      <div class="col-6">
+        <p><img src="./img_horizon/logo.jpg" width="100" height="45" alt="">Richo. dfrdc2022 | All Rights Reserved</p>
+      </div>
+
+        <ul class=" nav col-6 justify-content-end">
+          <li class="nav-item"><a  class="nav-link fw-bold pe-5" href="/"></a>Home</li>
+          <li class="nav-item"><a class="nav-link fw-bold pe-5"  href="/"></a>About</li>
+          <li class="nav-item"><a class="nav-link fw-bold pe-5"  href="/"></a>Courses</li>
+        </ul>
+    </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
